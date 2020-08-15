@@ -1,4 +1,6 @@
-# finxi-test
+# Finxi-Test
+Projeto de teste
+* Verifique se existe uma chave da api no arquivo .env
 
 ## Project setup
 ```
@@ -14,11 +16,3 @@ yarn serve
 ```
 yarn build
 ```
-
-### Lints and fixes files
-```
-yarn lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
