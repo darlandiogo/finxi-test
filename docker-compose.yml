@@ -3,8 +3,10 @@ services:
   app:
     build: .
     container_name: finxi-test
-    restart: always
+    working_dir: /src
     volumes: 
-      - .:/app
+      - '.:/src'
+    restart: always
     ports:
-      - 8888:8888
+      - 8080:8080
+    command: /bin/sh -c "yarn serve"
